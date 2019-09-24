@@ -58,11 +58,6 @@ a img {
     width: 100%;
 }
 
-.soc {
-    width: 4%;
-    float: left;
-}
-
 .tableOne {
     width: 50%;
     border-collapse: collapse;
@@ -114,4 +109,9 @@ h1 {
 
 p {
     margin: 3%;
+}
+
+.soc {
+    width: 4%;
+    float: left;
 }
