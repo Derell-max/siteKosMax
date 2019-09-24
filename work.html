@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="style/styleWork.css">
+    <link rel="stylesheet" href="style/style.css">
     <meta charset="UTF-8">
     <title>Задания</title>
 </head>
@@ -19,15 +19,15 @@
     <main>
         <br>
         <h1>Задание 1. Построение таблиц</h1>
-        <table>
+        <table class="tableOne">
             <tr>
                 <td colspan="5"></td>
             </tr>
             <tr>
-                <td></td>
                 <td rowspan="3"></td>
                 <td></td>
                 <td rowspan="3"></td>
+                <td></td>
                 <td></td>
             </tr>
             <tr>
@@ -46,7 +46,7 @@
         </table>
         <br>
         <hr><br>
-        <table>
+        <table class="tableOne">
             <tr>
                 <td class="colspan tableTwo" colspan="8"></td>
             </tr>
@@ -60,17 +60,19 @@
                 <td class="colspan tableTwo" colspan="4"></td>
                 <td class="rowspan tableTwo" rowspan="4"></td>
             </tr>
+
             <tr>
-                <td class="tableTwo" bgcolor="red"></td>
-                <td class="tableTwo" bgcolor="green"></td>
+                <td class="rowspan tableTwo" rowspan="2"></td>
+                <td bgcolor="red"></td>
+                <td bgcolor="blue"></td>
+                <td class="rowspan tableTwo" rowspan="2"></td>
             </tr>
             <tr>
-                <td class="tableTwo" bgcolor="blue"></td>
-                <td class="tableTwo" bgcolor="yellow">
-                    </tdclass="tableTwo">
+                <td bgcolor="green"></td>
+                <td bgcolor="yellow"></td>
             </tr>
             <tr>
-                <td class="colspan tableTwo" colspan="2"></td>
+                <td class="colspan tableTwo" colspan="4"></td>
             </tr>
             <tr>
                 <td class="colspan tableTwo" colspan="6"></td>

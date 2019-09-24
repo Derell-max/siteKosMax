@@ -26,12 +26,13 @@ nav {
 }
 
 section {
-    margin-right: 25%;
+    margin-right: 20%;
 }
 
 .myPhoto {
     margin: 2%;
     float: left;
+    width: 35%;
 }
 
 aside {
@@ -39,16 +40,78 @@ aside {
     margin-top: 4%;
 }
 
-h1 {
-    font-size: 150%;
-}
-
 table {
     margin-top: 2%;
     border: 1px solid;
     background-color: black;
-}   
+}
+
+.content {
+    width: 80%; 
+}
 
 td img {
     width: 200px;
+}
+
+a img {
+    width: 100%;
+}
+
+.soc {
+    width: 4%;
+    float: left;
+}
+
+.tableOne {
+    width: 50%;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.tableTwo {
+    padding-bottom: 4%;
+}
+
+td {
+    border: 1px solid black;
+    padding: 1%;
+}
+
+.colspan {
+    background-color: rgb(101, 212, 198);
+}
+
+.rowspan {
+    background-color: rgb(252, 237, 210);
+}
+
+.formOne {
+    text-align: right;
+    margin-right: 60%;
+    padding: 2%; 
+    border: 2px solid black;  
+}
+
+.formTwo {
+    border: 2px solid black;
+    padding: 2%;
+    padding: 2%; 
+    margin-right: 60%; 
+}
+
+
+div {
+    margin-left: 8%;
+}
+
+h1 {
+    font-size: 200%;
+    margin: 2%;
+}
+
+p {
+    margin: 3%;
 }
