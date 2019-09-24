@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style/styleWork.css">
+    <meta charset="UTF-8">
+    <title>Задания</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a class="headerUrl" href="index.html">Главная</a>
+            <a class="headerUrl" href="work.html">Задания</a>
+            <a class="headerUrl" href="projects.html">Проекты</a>
+            <a class="headerUrl" href="contacts.html">Контакты</a>
+        </nav>
+    </header>
+    <main>
+        <br>
+        <h1>Задание 1. Построение таблиц</h1>
+        <table>
+            <tr>
+                <td colspan="5"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td rowspan="3"></td>
+                <td></td>
+                <td rowspan="3"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td rowspan="3"></td>
+                <td rowspan="3"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+        <br>
+        <hr><br>
+        <table>
+            <tr>
+                <td class="colspan tableTwo" colspan="8"></td>
+            </tr>
+            <tr>
+                <td class="rowspan tableTwo" rowspan="6"></td>
+                <td class="colspan tableTwo" colspan="6"></td>
+                <td class="rowspan tableTwo" rowspan="6"></td>
+            </tr>
+            <tr>
+                <td class="rowspan tableTwo" rowspan="4"></td>
+                <td class="colspan tableTwo" colspan="4"></td>
+                <td class="rowspan tableTwo" rowspan="4"></td>
+            </tr>
+            <tr>
+                <td class="tableTwo" bgcolor="red"></td>
+                <td class="tableTwo" bgcolor="green"></td>
+            </tr>
+            <tr>
+                <td class="tableTwo" bgcolor="blue"></td>
+                <td class="tableTwo" bgcolor="yellow">
+                    </tdclass="tableTwo">
+            </tr>
+            <tr>
+                <td class="colspan tableTwo" colspan="2"></td>
+            </tr>
+            <tr>
+                <td class="colspan tableTwo" colspan="6"></td>
+            </tr>
+            <tr>
+                <td class="colspan tableTwo" colspan="8"></td>
+            </tr>
+        </table>
+        <h1>Задание 2. Построение форм</h1>
+        <div class="formOne">
+
+            <h2>ЗАО "Птицефабрика №1"</h2>
+
+            <p>Фамилия:
+                <input type="text" name="fam" id="fam">
+            </p>
+            <p>Инициалы:
+                <input type="text" name="nameOt" id="nameOt">
+            </p>
+            <p>Пароль:
+                <input type="password" name="password" id="password">
+            </p>
+            <p>Адрес получателя:
+                <input type="text" name="adress" id="adress">
+            </p>
+            <p>Количество:
+                <input type="number" name="" id="">
+            </p>
+            <p>
+                <select>
+                    <option>Куринные</option>
+                </select>
+                <select>
+                    <option>Отборные</option>
+                </select>
+            </p>
+            <p>Доставка:
+                <input type="radio">Почтой
+                <input type="radio">Электронно
+                <input type="radio">Курьером
+            </p>
+            <p>Требуется накладная:
+                <input type="checkbox" name="" id="">
+            </p>
+            <p>Дополнительная информация:</p>
+            <p>
+                <textarea name="" id="" cols="21" rows="5"></textarea>
+            </p>
+            <p>
+                <input type="button" value="Заказать">
+                <input type="button" value="Отмена">
+            </p>
+        </div>
+        <div class="formTwo">
+            <h2>Пример формы регистрации сайта</h2>
+            <p>Логин</p>
+            <input type="text">
+            <p>Пароль</p>
+            <input type="password">
+            <p>URL-Адрес сайта</p>
+            <input type="email">
+            <p>Название сайта</p>
+            <input type="text">
+            <p>Описание сайта</p>
+            <textarea cols="10" rows="5"></textarea>
+            <p>Тема сайта</p>
+            <select>
+                <option value="">Тема не выбрана</option>
+            </select>
+            <p>Баннер</p>
+            <input type="file">
+            <p></p>
+            <input type="button" value="Очистить">
+            <input type="button" value="Отправить">
+        </div>
+    </main>
+</body>
+
+</html>

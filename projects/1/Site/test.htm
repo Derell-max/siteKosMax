@@ -1,0 +1,125 @@
+<html>
+<head>
+<title>Star Wars</title>
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Original: Monichar -->
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+var ans = new Array;
+var done = new Array;
+var score = 0;
+ans[1] = "b";
+ans[2] = "b";
+ans[3] = "a";
+ans[4] = "a";
+ans[5] = "a";
+ans[6] = "b";
+ans[7] = "b";
+ans[8] = "b";
+ans[9] = "a";
+ans[10] = "b";
+function Engine(question, answer) {
+if (answer != ans[question]) {
+if (!done[question]) {
+done[question] = -1;
+alert("Хорошо, давай дальше.\n\n");
+}
+else {
+alert("Вы уже отвечали на это!");
+}
+}
+else {
+if (!done[question]) {
+done[question] = -1;
+score++;
+alert("Хорошо, давай дальше.\n\n");
+}
+else { 
+alert("Вы уже ответили на это!");
+}
+}
+}
+function NextLevel () {
+if (score < 5) {
+alert ("Зол ты и коварен. Тёмная сторона зовёт тебя. Ступай к ситхам. Иди за Императором!");
+}
+if (score > 5) {
+alert("Ощущаю в тебе светлую сторону я. Отважен и добр ты. Ступай к джедаям. Да прибудет с тобой Сила!");
+}
+/*измените выделенную линию на: self.location="quiz2.htm" если Вы сделали еще один уровень*/
+
+if (score == 5) {
+alert("Хмм, загадочен ты. Ты ровно по центру между добром и злом. Посмотри обе стороны. Да направит тебя Сила!");
+}
+}
+// End -->
+</SCRIPT>
+
+
+</head>
+
+<body>
+
+<body bgcolor="black">
+<div align="center">
+<a href="index.htm">
+<img src="images/logo1.png">
+</a>
+<font size=5 face=Arial color="white">
+<h1><p>Какой стороне ты принадлежишь?</p></h1>
+<noscript>JavaScript is <b><i>disabled</b></i>. Get Netscape 3.0 or turn 
+it on!</noscript></div>
+<hr noshade>
+<div align="left">
+<FORM>
+<b> Хотели бы вы познать бессмертие или перенос сознания в другое тело?</b><p>
+<input type=radio value="a" onClick="Engine(1, this.value)">Да<br>
+<input type=radio value="b" onClick="Engine(1, this.value)">Нет<br>
+
+<b><p>Всё ли абсолютно во Вселенной?</p></b><p>
+<input type=radio value="a" onClick="Engine(2, this.value)">Да<br>
+<input type=radio value="b" onClick="Engine(2, this.value)">Нет<p>
+
+<b> В чём сила?</b><p>
+<input type=radio value="a" onClick="Engine(3, this.value)">Разум<br>
+<input type=radio value="b" onClick="Engine(3, this.value)">Физическая сила<br>
+
+<b> <p>Власть страны?</p></b><p>
+<input type=radio value="a" onClick="Engine(4, this.value)">Демократия<br>
+<input type=radio value="b" onClick="Engine(4, this.value)">Тоталитаризм<br>
+
+<b> <p>Кто ты по жизни?</p> </b><p>
+<input type=radio value="a" onClick="Engine(5, this.value)">Технарь<br>
+<input type=radio value="b" onClick="Engine(5, this.value)">Гуманитарий<br>
+
+<b> <p>Выбери цвет:</p> </b><p>
+<input type=radio value="a" onClick="Engine(6, this.value)">Оранжевый<br>
+<input type=radio value="b" onClick="Engine(6, this.value)">Жёлтый<br>
+
+<b> <p>Ваш друг сломал вам вещь. Ваши действия:</p> </b><p>
+<input type=radio value="a" onClick="Engine(7, this.value)">Заставлю купить новую<br>
+<input type=radio value="b" onClick="Engine(7, this.value)">Скажу, что ничего страшного<br>
+
+<b> <p>Смертельная ситуация. Вы спасаетесь или спасаете друга?:</p> </b><p>
+<input type=radio value="a" onClick="Engine(8, this.value)">Себя<br>
+<input type=radio value="b" onClick="Engine(8, this.value)">Друга<br>
+
+<b> <p>Что сильнее слово или физическая сила?:</p> </b><p>
+<input type=radio value="a" onClick="Engine(9, this.value)">Слово<br>
+<input type=radio value="b" onClick="Engine(9, this.value)">Сила<br>
+
+<b> <p>Остался последний кусок пирога. Ваши дейсвия:</p> </b><p>
+<input type=radio value="a" onClick="Engine(10, this.value)">Съем его<br>
+<input type=radio value="b" onClick="Engine(10, this.value)">Поделюсь<br>
+
+<CENTER>
+<input type=button onClick="NextLevel()" value="Узнать резульат">
+</CENTER>
+</font>
+</FORM> 
+</div>
+</body>
+</html>

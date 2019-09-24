@@ -1,0 +1,54 @@
+header {
+    background-color: rgba(255, 255, 255, 0.9);
+    margin-left: 15%;
+    margin-right: 15%;    
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.9);
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+}
+
+body {
+    background: url(/photos/main.jpg);
+}
+
+.headerUrl {
+    padding-right: 5%;
+    font-size: 200%;
+}
+
+nav {
+    text-align: center;
+    padding: 2%;
+}
+
+section {
+    margin-right: 25%;
+}
+
+.myPhoto {
+    margin: 2%;
+    float: left;
+}
+
+aside {
+    margin-left: 2%;
+    margin-top: 4%;
+}
+
+h1 {
+    font-size: 150%;
+}
+
+table {
+    margin-top: 2%;
+    border: 1px solid;
+    background-color: black;
+}   
+
+td img {
+    width: 200px;
+}
