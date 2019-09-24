@@ -12,7 +12,7 @@ main {
 }
 
 body {
-    background: url(/photos/main.jpg);
+    background: url(photos/main.jpg);
 }
 
 .headerUrl {
